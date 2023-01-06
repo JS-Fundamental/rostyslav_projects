@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* This defines what 1rem is: 1rem = 10px */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  background-color:aliceblue;
+}
+
+.question {
+  padding: 1rem;
+}
+
+input {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+  font-weight: 700;
+}
+
+.btn, .btn-sets {
+  padding: 0.7rem 3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.btn, .btn-sets:hover {
+  background-color:  #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41; 
+  box-shadow: 0 0.5rem #666;
+  transform: translateY(0.4rem);
+}
+
+.btn-sets:active {
+  background-color: #3e8e41; 
+  box-shadow: 0 0.5rem #666;
+  transform: translateY(0.4rem);
+}

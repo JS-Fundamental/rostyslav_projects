@@ -1,3 +1,1 @@
-const toDoList = [
-  'Shopping',
-  'Clean house'];
+const toDoList = [];

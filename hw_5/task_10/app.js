@@ -4,7 +4,7 @@
 const ulTag = document.querySelector('ul');
 const inputTag = document.querySelector('input');
 
-// Creating list item
+// Function to create a list item
 const createLiTag = word => {
   let liTag = `<li>${word}<span>x</span></li>`;
   return liTag;
@@ -17,7 +17,7 @@ inputTag.addEventListener('change', (event) => {
   inputTag.value = '';
 
   // Removing item from the list  
-  ulTag.lastChild.addEventListener('click', (event) => {
+  ulTag.lastChild.children[0].addEventListener('click', (event) => {
     event.target.parentElement.remove();
     removeElement(event);
   })

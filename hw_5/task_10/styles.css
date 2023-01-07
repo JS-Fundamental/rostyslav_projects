@@ -25,7 +25,36 @@ body {
 }
 
 span {
-  margin-left: 2rem;
+  position: absolute;
+  right: 20rem;
   cursor: pointer;
+  color: red;
+  font-weight: 700;
 }
 
+input {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 3rem 0;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  border-radius: 0.7rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #ce9a2b;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color:  #d0a340;
+}
+
+.btn:active {
+  background-color: #d0a340; 
+  box-shadow: 0 0.5rem #666;
+  transform: translateY(0.4rem);
+}

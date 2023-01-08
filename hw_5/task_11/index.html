@@ -9,8 +9,49 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    
+    <form action="https://www.bbc.com/">
+      <div class="container">
+        <h1>Register</h1>
+        <p>Fill in this form to create an account.</p>
+        <hr />
 
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+
+        <label for="age"><b>Age</b></label>
+        <input
+          type="text"
+          placeholder="Enter your age"
+          name="age"
+          id="age"
+          required
+        />
+        <hr />
+
+        <p class="terms-privacy">
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+      <button type="submit" class="btn">Register</button>
+      </div>
+      
+    </form>
+    <script src="./data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

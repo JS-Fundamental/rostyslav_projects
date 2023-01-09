@@ -1,5 +1,3 @@
-/* 2) Створити додаток для розрахунку площі прямокутника. На основі значень введених в поля, при кліку на кнопку Побудувати, в div блоці із класом out потрібно відрисувати прямокутник із заданими параметрами (але в пікселях а не сантиметрах)
-*/ 
 //////// constants, variables /////////
 const lengthInput = document.getElementById('length');
 const widthInput = document.getElementById('width');

@@ -16,4 +16,4 @@ Since the 1980s, Disney has created and acquired corporate divisions to market m
 
 Disney is one of the biggest and best-known companies in the world, and has been ranked number 53 on the 2022 Fortune 500 list of biggest companies in the United States by revenue. Since its founding, the company has won 135 Academy Awards, 26 of which have been awarded to Walt. The company has been said to have produced some of the greatest films of all time, as well as revolutionizing the theme park industry. Disney has been criticized for supposed plagiarism, depicting racial stereotypes in the past, and both including and lacking LGBT-related elements in its films. The company, which has been public since 1940, trades on the New York Stock Exchange (NYSE) with ticker symbol DIS and has been a component of the Dow Jones Industrial Average since 1991. In August 2020, just under two-thirds of the stock was owned by large financial institutions.`;
 
-const news = 'https://www.bbc.com/';
+const news = 'https://news.ycombinator.com/';

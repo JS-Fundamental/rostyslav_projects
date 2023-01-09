@@ -16,9 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  margin-bottom: 0;
   box-sizing: border-box;
   font-size: 2.5rem;
   background-color:#f0f8ff;
@@ -26,18 +24,29 @@ body {
 
 .container {
   padding: 1rem;
-  width: 45rem;
+  width: 50rem;
+  height: 63rem;
   border: 0.2rem solid #c4b0b0;
   border-radius: 0.7rem;
 }
 
 form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #ffffff;
 }
 
 h1 {
   text-align: center;
-  padding: 1rem;
+  padding-top: 1rem;
+}
+
+.header {
+  padding: 1rem 1rem;
+  text-indent: 0;
+  text-align: center;
 }
 
 input[type=text], input[type=password] {
@@ -70,6 +79,7 @@ hr {
   width: 100%;
   opacity: 0.9;
   border-radius: 0.7rem;
+  font-size: 2rem;
 }
 
 .btn:hover {
@@ -79,9 +89,22 @@ hr {
 .terms-privacy {
   font-size: 1.6rem;
   text-align: center;
+  padding: 0;
+  text-indent: 0;
 }
 
 a {
   color: #1e90ff;
 }
 
+p {
+  padding: 4rem;
+  text-indent: 4rem;
+  line-height: 3.5rem;
+}
+
+.cartoon {
+  width: 45rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}

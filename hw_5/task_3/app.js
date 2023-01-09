@@ -1,6 +1,3 @@
-/*
-3) Зробити гру МАТЕМАТИК. Є масив питань(3-4 штуки), відображати їх по черзі, і давати можливість користувачеві вибирати 1 варіант відповіді, якщо користувач відповість на всі питання вірно, то очистити вікно сайту і поставити бекграунд фото(будь-яке)
-*/
 const card = document.querySelector('.card');
 const question = document.querySelector('.question');
 const aAnswer = document.querySelector('.a-ans');

@@ -1,7 +1,3 @@
-/* 3) Створити гру для перевірки знання таблиці множення. 
-Користувач має 3 спроби пройти тест (який складається із 5 прикладів).
-По завершенню виводити найкращий результат.
-*/
 const bodyTag = document.querySelector('body');
 const questionDiv = document.querySelector('.question');
 const inputTag = document.querySelector('input');

@@ -1,5 +1,5 @@
 # rostyslav_projects
-These are homeworks of Softserve JavaScript Fundamentals course
+<h2 align="center">These are homeworks of Softserve JavaScript Fundamentals course</h2>
 <div align="center">
 <img width="700px" height="300px" src="https://github.com/Matrix-citizen/Matrix-citizen/blob/main/404542.png" alt="Matrix banner">
 </div>

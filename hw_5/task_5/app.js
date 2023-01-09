@@ -1,6 +1,3 @@
-/*
-5) створити тест, будь-які 5 питань, якщо відповідь на питання правильне, то закрашувати фон в зелений колір, якщо ні, то в червоний і відкривати знизу правильну відповідь та пояснення. Питання відображати по 1 штуку.
-*/
 const bodyTag = document.querySelector('body');
 const questionDiv = document.querySelector('.question');
 const inputTag = document.querySelector('input');
